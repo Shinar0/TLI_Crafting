@@ -1,4 +1,4 @@
-const randomizer = (values) => {
+/* const randomizer = (values) => {
     let i, pickedValue,
             randomNr = Math.random(),
             threshold = 0;
@@ -15,7 +15,6 @@ const randomizer = (values) => {
         }
 
         if (!pickedValue) {
-            //nothing found based on probability value, so pick element marked with wildcard
             pickedValue = values.filter((value) => value.probability === '*');
         }
     }
@@ -23,4 +22,26 @@ const randomizer = (values) => {
     console.log(Embers[0].Name)
     console.log(Embers[0].Affixes[2].Affix_Name)
     return pickedValue;
+} */
+var Ember_selection = 0;
+function rando() {
+  r = Math.floor(Math.random() * Embers[Ember_selection].Affixes.length);
+  console.log(r);
+  r2 = Math.floor(
+    Math.random() * Embers[Ember_selection].Affixes[r].Tiers.length
+  );
+  console.log(r2);
+  a = chance.weighted(
+    [
+      Embers[Ember_selection].Affixes[r].Tiers[0].mod_description,
+      Embers[Ember_selection].Affixes[r].Tiers[1].mod_description,
+      Embers[Ember_selection].Affixes[r].Tiers[2].mod_description,
+    ],
+    [
+      Embers[Ember_selection].Affixes[r].Tiers[0].tier_weight,
+      Embers[Ember_selection].Affixes[r].Tiers[1].tier_weight,
+      Embers[Ember_selection].Affixes[r].Tiers[2].tier_weight,
+    ]
+  );
+  console.log(a);
 }
