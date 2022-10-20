@@ -1,47 +1,29 @@
-/* const randomizer = (values) => {
-    let i, pickedValue,
-            randomNr = Math.random(),
-            threshold = 0;
-
-    for (i = 0; i < values.length; i++) {
-        if (values[i].probability === '*') {
-            continue;
-        }
-
-        threshold += values[i].probability;
-        if (threshold > randomNr) {
-                pickedValue = values[i].value;
-                break;
-        }
-
-        if (!pickedValue) {
-            pickedValue = values.filter((value) => value.probability === '*');
-        }
-    }
-    console.log(pickedValue, 'was picked!');
-    console.log(Embers[0].Name)
-    console.log(Embers[0].Affixes[2].Affix_Name)
-    return pickedValue;
-} */
 var Ember_selection = 0;
+var result = $.csv.toObjects(claw.csv);
+
 function rando() {
-  r = Math.floor(Math.random() * Embers[Ember_selection].Affixes.length);
-  console.log(r);
-  r2 = Math.floor(
-    Math.random() * Embers[Ember_selection].Affixes[r].Tiers.length
-  );
-  console.log(r2);
-  a = chance.weighted(
-    [
-      Embers[Ember_selection].Affixes[r].Tiers[0].mod_description,
-      Embers[Ember_selection].Affixes[r].Tiers[1].mod_description,
-      Embers[Ember_selection].Affixes[r].Tiers[2].mod_description,
-    ],
-    [
-      Embers[Ember_selection].Affixes[r].Tiers[0].tier_weight,
-      Embers[Ember_selection].Affixes[r].Tiers[1].tier_weight,
-      Embers[Ember_selection].Affixes[r].Tiers[2].tier_weight,
-    ]
-  );
-  console.log(a);
+  var mod_selection = [];
+  var mod_selection_weight = [];
+  
+  
+  for (i=0;i<Embers[Ember_selection].Affixes.length;i++) {
+    mod_selection[i] = i
+    mod_selection_weight[i] = Embers[Ember_selection].Affixes[i].mod_weight
+  }
+  
+  chosen_mod = chance.weighted(mod_selection, mod_selection_weight);
+
+  var chosen_tier_mod_descriptions = [];
+  var chosen_tier_weights = [];
+
+  for(i=0; i<Embers[Ember_selection].Affixes[chosen_mod].Tiers.length; i++) {
+    chosen_tier_mod_descriptions[i] = "T" + Embers[Ember_selection].Affixes[chosen_mod].Tiers[i].Tier + " " + Embers[Ember_selection].Affixes[chosen_mod].Tiers[i].mod_tier_prefix + Embers[Ember_selection].Affixes[chosen_mod].Tiers[i].mod_tier_range[Math.floor(Math.random()*Embers[Ember_selection].Affixes[chosen_mod].Tiers[i].mod_tier_range.length)] + Embers[Ember_selection].Affixes[chosen_mod].Affix_Name;
+    chosen_tier_weights[i] = Embers[Ember_selection].Affixes[chosen_mod].Tiers[i].tier_weight
+  };
+
+  mod_outcome = chance.weighted(chosen_tier_mod_descriptions, chosen_tier_weights);
+  
+  console.log(mod_outcome); 
 }
+
+console.log(result);
