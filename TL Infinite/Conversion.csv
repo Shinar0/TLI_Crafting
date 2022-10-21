@@ -1,0 +1,76 @@
+﻿Type,Effect,affix_type,Cost,Lv
+Gear physical damage %,(19–21)% gear physical damage,Pre-fix,Flame Dust x20,Lv 20
+Gear physical damage %,(22–26)% gear physical damage,Pre-fix,Flame Sand x20,Lv 30
+Gear physical damage %,(27–31)% gear physical damage,Pre-fix,Flame Elementium x5,Lv 40
+Gear physical damage %,(32–37)% gear physical damage,Pre-fix,Flame Elementium x10,Lv 50
+Gear physical damage,(6–7) - (7–9) added gear physical damage,Pre-fix,Flame Dust x20,Lv 20
+Gear physical damage,(7–9) - (9–11) added gear physical damage,Pre-fix,Flame Sand x20,Lv 30
+Gear physical damage,(9–11) - (11–13) added gear physical damage,Pre-fix,Flame Elementium x5,Lv 40
+Gear physical damage,(11–13) - (14–16) added gear physical damage,Pre-fix,Flame Elementium x10,Lv 50
+Added gear fire damage,(12–14) - (17–20) added gear fire damage,Pre-fix,Flame Dust x20,Lv 20
+Added gear fire damage,(14–17) - (21–24) added gear fire damage,Pre-fix,Flame Sand x20,Lv 30
+Added gear fire damage,(18–21) - (25–29) added gear fire damage,Pre-fix,Flame Elementium x5,Lv 40
+Added gear fire damage,(22–25) - (29–34) added gear fire damage,Pre-fix,Flame Elementium x10,Lv 50
+Added gear cold damage,(13–15) - (16–19) added gear cold damage,Pre-fix,Flame Dust x20,Lv 20
+Added gear cold damage,(15–18) - (20–23) added gear cold damage,Pre-fix,Flame Sand x20,Lv 30
+Added gear cold damage,(18–21) - (24–28) added gear cold damage,Pre-fix,Flame Elementium x5,Lv 40
+Added gear cold damage,(22–26) - (29–34) added gear cold damage,Pre-fix,Flame Elementium x10,Lv 50
+Added gear lightning damage,1 - (29–33) added gear lightning damage,Pre-fix,Flame Dust x20,Lv 20
+Added gear lightning damage,(1–2) - (35–40) added gear lightning damage,Pre-fix,Flame Sand x20,Lv 30
+Added gear lightning damage,(1–2) - (42–48) added gear lightning damage,Pre-fix,Flame Elementium x5,Lv 40
+Added gear lightning damage,(2–3) - (50–57) added gear lightning damage,Pre-fix,Flame Elementium x10,Lv 50
+Added % of physical damage as fire damage,4% of physical damage added as fire damage,Pre-fix,Flame Elementium x5,Lv 40
+Added % of physical damage as fire damage,5% of physical damage added as fire damage,Pre-fix,Flame Elementium x10,Lv 50
+Added % of physical damage as cold damage,Added 4% of physical damage to cold damage,Pre-fix,Flame Elementium x5,Lv 40
+Added % of physical damage as cold damage,Added 5% of physical damage to cold damage,Pre-fix,Flame Elementium x10,Lv 50
+Added % of physical damage as lightning damage,4% of physical damage added as lightning damage,Pre-fix,Flame Elementium x5,Lv 40
+Added % of physical damage as lightning damage,5% of physical damage added as lightning damage,Pre-fix,Flame Elementium x10,Lv 50
+Elemental piercing,Damage Pierces 2% Elemental Resistance,Pre-fix,Flame Sand x20,Lv 30
+Elemental piercing,Damage Pierces 3% Elemental Resistance,Pre-fix,Flame Elementium x5,Lv 40
+Elemental piercing,Damage Pierces 5% Elemental Resistance,Pre-fix,Flame Elementium x10,Lv 50
+Fire damage,(22–25)% fire damage,Pre-fix,Flame Sand x20,Lv 30
+Fire damage,(26–30)% fire damage,Pre-fix,Flame Elementium x5,Lv 40
+Fire damage,(31–36)% fire damage,Pre-fix,Flame Elementium x10,Lv 50
+cold damage,(22–25)% cold damage,Pre-fix,Flame Sand x20,Lv 30
+cold damage,(26–30)% cold damage,Pre-fix,Flame Elementium x5,Lv 40
+cold damage,(31–36)% cold damage,Pre-fix,Flame Elementium x10,Lv 50
+Lightning damage,(22–25)% lightning damage,Pre-fix,Flame Sand x20,Lv 30
+Lightning damage,(26–30)% lightning damage,Pre-fix,Flame Elementium x5,Lv 40
+Lightning damage,(31–36)% lightning damage,Pre-fix,Flame Elementium x10,Lv 50
+Erosion Damage,(26–30)% Erosion Damage,Pre-fix,Flame Elementium x5,Lv 40
+Erosion Damage,(31–36)% Erosion Damage,Pre-fix,Flame Elementium x10,Lv 50
+Attack block,+7% attack block chance,Post-fix,Flame Sand x10,Lv 30
+Attack block,+8% attack block chance,Post-fix,Flame Elementium x3,Lv 40
+Attack block,(9–10)% attack block chance,Post-fix,Flame Elementium x6,Lv 50
+Gear attack speed,+7% gear attack speed,Post-fix,Flame Sand x20,Lv 30
+Gear attack speed,(8–9)% gear attack speed,Post-fix,Flame Elementium x5,Lv 40
+Gear attack speed,(10–11)% gear attack speed,Post-fix,Flame Elementium x10,Lv 50
+Gear critical strike rating,(9–10)% gear attack critical strike rating,Post-fix,Flame Sand x20,Lv 30
+Gear critical strike rating,(11–12)% gear attack critical strike rating,Post-fix,Flame Elementium x5,Lv 40
+Gear critical strike rating,(13–15)% gear attack critical strike rating,Post-fix,Flame Elementium x10,Lv 50
+Attack and spell critical strike damage,(18–21)% critical strike damage,Post-fix,Flame Sand x20,Lv 30
+Attack and spell critical strike damage,(22–25)% critical strike damage,Post-fix,Flame Elementium x5,Lv 40
+Attack and spell critical strike damage,(26–30)% critical strike damage,Post-fix,Flame Elementium x10,Lv 50
+Fire resistance,(20–22)% fire resistance,Post-fix,Flame Sand x10,Lv 30
+Fire resistance,(23–24)% fire resistance,Post-fix,Flame Elementium x3,Lv 40
+Fire resistance,(25–29)% fire resistance,Post-fix,Flame Elementium x6,Lv 50
+Cold resistance,(20–22)% cold resistance,Post-fix,Flame Sand x10,Lv 30
+Cold resistance,(23–24)% cold resistance,Post-fix,Flame Elementium x3,Lv 40
+Cold resistance,(25–29)% cold resistance,Post-fix,Flame Elementium x6,Lv 50
+Lightning resistance,(20–22)% lightning resistance,Post-fix,Flame Sand x10,Lv 30
+Lightning resistance,(23–24)% lightning resistance,Post-fix,Flame Elementium x3,Lv 40
+Lightning resistance,(25–29)% lightning resistance,Post-fix,Flame Elementium x6,Lv 50
+Erosion Resistance,(15–16)% Erosion Resistance,Post-fix,Flame Elementium x3,Lv 40
+Erosion Resistance,(17–19)% Erosion Resistance,Post-fix,Flame Elementium x6,Lv 50
+Strength,(25–27) strength,Post-fix,Flame Sand x10,Lv 30
+Strength,(28–30) strength,Post-fix,Flame Elementium x1,Lv 40
+Strength,(31–36) strength,Post-fix,Flame Elementium x3,Lv 50
+Dexterity,(25–27) dexterity,Post-fix,Flame Sand x10,Lv 30
+Dexterity,(28–30) dexterity,Post-fix,Flame Elementium x1,Lv 40
+Dexterity,(31–36) dexterity,Post-fix,Flame Elementium x3,Lv 50
+Intelligence,(25–27) intelligence,Post-fix,Flame Sand x10,Lv 30
+Intelligence,(28–30) intelligence,Post-fix,Flame Elementium x1,Lv 40
+Intelligence,(31–36) intelligence,Post-fix,Flame Elementium x3,Lv 50
+Physical Damage %; Reduced Skill Cost,(20–30)% gear physical damage,Pre-fix,Flame Elementium x5,Lv 60
+,-5% skill cost,,,
+Chance to trigger Bloodthirst on defeat,10% chance to trigger Lv. 1 Bloodthirst on defeat,Post-fix,Flame Elementium x20,Lv 60

@@ -1,0 +1,530 @@
+const claw_ enchant = [
+	{
+		Type: "Gear physical damage %",
+		Effect: "(19–21)% gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Dust x20",
+		Level: 20"
+	},
+	{
+		Type: "Gear physical damage %",
+		Effect: "(22–26)% gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Gear physical damage %",
+		Effect: "(27–31)% gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Gear physical damage %",
+		Effect: "(32–37)% gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Gear physical damage",
+		Effect: "(6–7) - (7–9) added gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Dust x20",
+		Level: 20"
+	},
+	{
+		Type: "Gear physical damage",
+		Effect: "(7–9) - (9–11) added gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Gear physical damage",
+		Effect: "(9–11) - (11–13) added gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Gear physical damage",
+		Effect: "(11–13) - (14–16) added gear physical damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Added gear fire damage",
+		Effect: "(12–14) - (17–20) added gear fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Dust x20",
+		Level: 20"
+	},
+	{
+		Type: "Added gear fire damage",
+		Effect: "(14–17) - (21–24) added gear fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Added gear fire damage",
+		Effect: "(18–21) - (25–29) added gear fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Added gear fire damage",
+		Effect: "(22–25) - (29–34) added gear fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Added gear cold damage",
+		Effect: "(13–15) - (16–19) added gear cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Dust x20",
+		Level: 20"
+	},
+	{
+		Type: "Added gear cold damage",
+		Effect: "(15–18) - (20–23) added gear cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Added gear cold damage",
+		Effect: "(18–21) - (24–28) added gear cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Added gear cold damage",
+		Effect: "(22–26) - (29–34) added gear cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Added gear lightning damage",
+		Effect: "1 - (29–33) added gear lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Dust x20",
+		Level: 20"
+	},
+	{
+		Type: "Added gear lightning damage",
+		Effect: "(1–2) - (35–40) added gear lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Added gear lightning damage",
+		Effect: "(1–2) - (42–48) added gear lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Added gear lightning damage",
+		Effect: "(2–3) - (50–57) added gear lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Added % of physical damage as fire damage",
+		Effect: "4% of physical damage added as fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Added % of physical damage as fire damage",
+		Effect: "5% of physical damage added as fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Added % of physical damage as cold damage",
+		Effect: "Added 4% of physical damage to cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Added % of physical damage as cold damage",
+		Effect: "Added 5% of physical damage to cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Added % of physical damage as lightning damage",
+		Effect: "4% of physical damage added as lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Added % of physical damage as lightning damage",
+		Effect: "5% of physical damage added as lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Elemental piercing",
+		Effect: "Damage Pierces 2% Elemental Resistance",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Elemental piercing",
+		Effect: "Damage Pierces 3% Elemental Resistance",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Elemental piercing",
+		Effect: "Damage Pierces 5% Elemental Resistance",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Fire damage",
+		Effect: "(22–25)% fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Fire damage",
+		Effect: "(26–30)% fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Fire damage",
+		Effect: "(31–36)% fire damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "cold damage",
+		Effect: "(22–25)% cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "cold damage",
+		Effect: "(26–30)% cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "cold damage",
+		Effect: "(31–36)% cold damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Lightning damage",
+		Effect: "(22–25)% lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Lightning damage",
+		Effect: "(26–30)% lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Lightning damage",
+		Effect: "(31–36)% lightning damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Erosion Damage",
+		Effect: "(26–30)% Erosion Damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Erosion Damage",
+		Effect: "(31–36)% Erosion Damage",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Attack block",
+		Effect: "+7% attack block chance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Attack block",
+		Effect: "+8% attack block chance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 40"
+	},
+	{
+		Type: "Attack block",
+		Effect: "(9–10)% attack block chance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x6",
+		Level: 50"
+	},
+	{
+		Type: "Gear attack speed",
+		Effect: "+7% gear attack speed",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Gear attack speed",
+		Effect: "(8–9)% gear attack speed",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Gear attack speed",
+		Effect: "(10–11)% gear attack speed",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Gear critical strike rating",
+		Effect: "(9–10)% gear attack critical strike rating",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Gear critical strike rating",
+		Effect: "(11–12)% gear attack critical strike rating",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Gear critical strike rating",
+		Effect: "(13–15)% gear attack critical strike rating",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Attack and spell critical strike damage",
+		Effect: "(18–21)% critical strike damage",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x20",
+		Level: 30"
+	},
+	{
+		Type: "Attack and spell critical strike damage",
+		Effect: "(22–25)% critical strike damage",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x5",
+		Level: 40"
+	},
+	{
+		Type: "Attack and spell critical strike damage",
+		Effect: "(26–30)% critical strike damage",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x10",
+		Level: 50"
+	},
+	{
+		Type: "Fire resistance",
+		Effect: "(20–22)% fire resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Fire resistance",
+		Effect: "(23–24)% fire resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 40"
+	},
+	{
+		Type: "Fire resistance",
+		Effect: "(25–29)% fire resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x6",
+		Level: 50"
+	},
+	{
+		Type: "Cold resistance",
+		Effect: "(20–22)% cold resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Cold resistance",
+		Effect: "(23–24)% cold resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 40"
+	},
+	{
+		Type: "Cold resistance",
+		Effect: "(25–29)% cold resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x6",
+		Level: 50"
+	},
+	{
+		Type: "Lightning resistance",
+		Effect: "(20–22)% lightning resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Lightning resistance",
+		Effect: "(23–24)% lightning resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 40"
+	},
+	{
+		Type: "Lightning resistance",
+		Effect: "(25–29)% lightning resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x6",
+		Level: 50"
+	},
+	{
+		Type: "Erosion Resistance",
+		Effect: "(15–16)% Erosion Resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 40"
+	},
+	{
+		Type: "Erosion Resistance",
+		Effect: "(17–19)% Erosion Resistance",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x6",
+		Level: 50"
+	},
+	{
+		Type: "Strength",
+		Effect: "(25–27) strength",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Strength",
+		Effect: "(28–30) strength",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x1",
+		Level: 40"
+	},
+	{
+		Type: "Strength",
+		Effect: "(31–36) strength",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 50"
+	},
+	{
+		Type: "Dexterity",
+		Effect: "(25–27) dexterity",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Dexterity",
+		Effect: "(28–30) dexterity",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x1",
+		Level: 40"
+	},
+	{
+		Type: "Dexterity",
+		Effect: "(31–36) dexterity",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 50"
+	},
+	{
+		Type: "Intelligence",
+		Effect: "(25–27) intelligence",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Sand x10",
+		Level: 30"
+	},
+	{
+		Type: "Intelligence",
+		Effect: "(28–30) intelligence",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x1",
+		Level: 40"
+	},
+	{
+		Type: "Intelligence",
+		Effect: "(31–36) intelligence",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x3",
+		Level: 50"
+	},
+	{
+		Type: "Physical Damage %; Reduced Skill Cost",
+		Effect: "(20–30)% gear physical damage -5% skill cost",
+		Affix_Type: "Pre-fix",
+		Cost: "Flame Elementium x5",
+		Level: 60"
+	},
+	{
+		Type: "",
+		Effect: "-5% skill cost",
+		Affix_Type: "",
+		Cost: "",
+		Level: ""
+	},
+	{
+		Type: "Chance to trigger Bloodthirst on defeat",
+		Effect: "10% chance to trigger Lv. 1 Bloodthirst on defeat",
+		Affix_Type: "Post-fix",
+		Cost: "Flame Elementium x20",
+		Level: 60"
+	},
+	{
+		Type: ""
+	}
+]
