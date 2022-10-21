@@ -1,4 +1,4 @@
-var Ember_selection = 0;
+/* var Ember_selection = 0;
 var result = $.csv.toObjects(claw.csv);
 
 function rando() {
@@ -24,6 +24,41 @@ function rando() {
   mod_outcome = chance.weighted(chosen_tier_mod_descriptions, chosen_tier_weights);
   
   console.log(mod_outcome); 
-}
+} */
 
-console.log(result);
+const Claw_craft = [
+  {
+    Tier: 1,
+    Modifier: "(8–10) mana restored on hit",
+    Level: 85,
+    Weight: 171,
+    Ember: "Vigor Ember",
+    Affix_Type: "Prefix",
+  },
+  {
+    Tier: 2,
+    Modifier: "Give this gear (11–12) - (13–15) Erosion Damage",
+    Level: 80,
+    Weight: 514,
+    Ember: "Vigor Ember",
+    Affix_Type: "Prefix",
+  },
+  {
+    Tier: 3,
+    Modifier: "1 - 5 added attack lightning damage per 12 dexterity",
+    Level: 75,
+    Weight: 1543,
+    Ember: "Vigor Ember",
+    Affix_Type: "Prefix",
+  }
+]
+
+var test1 = Claw_craft[0].Modifier;
+var regex = /\d+/g
+var result = test1.match(regex);
+var myMin = parseInt(result[0]);
+var myMax = parseInt(result[1]);
+
+var random_number = Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+
+console.log(random_number);

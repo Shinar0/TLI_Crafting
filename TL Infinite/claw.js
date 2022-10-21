@@ -1,4 +1,4 @@
-const claw_craft = [
+/* const Claw_craft = [
   {
     Tier: 1,
     Modifier: "(8–10) mana restored on hit",
@@ -2121,3 +2121,4 @@ const claw_enchant = [
     Level: 60,
   },
 ];
+ */
